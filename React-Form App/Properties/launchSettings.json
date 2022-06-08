@@ -3,26 +3,24 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:62126",
-      "sslPort": 0
+      "applicationUrl": "https://localhost:27741",
+      "sslPort": 44341
     }
   },
   "profiles": {
-    "React_Form_App": {
+    "ReactJS.Net_Application": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "http://localhost:5284",
+      "applicationUrl": "https://localhost:7124;https://localhost:5124",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development",
-        "ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.SpaProxy"
+        "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development",
-        "ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.SpaProxy"
+        "ASPNETCORE_ENVIRONMENT": "Development"
       }
     }
   }
